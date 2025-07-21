@@ -5,7 +5,7 @@
 To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attetion to depending on the role I'm targeting.
 
 View my notebook with detailed steps here:
-[2_Skill_Demand.ipynb](2_Skill_Demand.ipynb)
+[2_Skill_Demand.ipynb](Project/2_Skill_Demand.ipynb)
 
 ### Visualize Data
 
@@ -27,7 +27,7 @@ for i, job_title in enumerate(job_titles):
 
 ### Results
 
-![Visualization of Top Skills for Data Nerds](images/skill_demand_all_data_roles.png)
+![Visualization of Top Skills for Data Nerds](Project/images/skill_demand_all_data_roles.png)
 
 ### Insights
 
@@ -35,6 +35,9 @@ for i, job_title in enumerate(job_titles):
 - SQL is the most requested skill for Data Analysts and Data Scientists, with it in over half the job postings for both roles. For Data Engineers, Python is the most in_demand skills, appearing in (53%) of jon postings.
 
 ## 2. 📈 Trending Data Analyst Skills in Germany (2023)
+
+View my notebook with detailed steps here:
+[3_Skills_Trend.ipynb](Project/3_Skills_Trend.ipynb)
 
 ### Visualize Data
 
@@ -59,7 +62,7 @@ plt.xlabel('2023')
 
 ### Results
 
-![Trending Top Skills for Data Analysts in Germany](images/skill_trend_DA.png)
+![Trending Top Skills for Data Analysts in Germany](Project/images/skill_trend_DA.png)
 This chart shows the top 5 most requested skills in Data Analyst job postings throughout 2023 in Germany, based on monthly frequency.
 
 ## Key Insights:
@@ -75,6 +78,9 @@ This chart shows the top 5 most requested skills in Data Analyst job postings th
 ## 3. How well do jobs and skills pay for Data Analysts?
 
 ### Salary Analysis for Data Nerds
+
+View my notebook with detailed steps here:
+[4_Salary_Analysis.ipynb](Project/4_Salary_Analysis.ipynb)
 
 #### Visualize Data
 
@@ -92,7 +98,7 @@ plt.gca().xaxis.set_major_formatter(tick_x)
 plt.show()
 ```
 
-![Salary Distributions of Data Jobs in the US](images/Job_skills_Pay.png)
+![Salary Distributions of Data Jobs in the US](Project/images/Job_skills_Pay.png)
 _Box plot visualizing the salary distributions for the top 6 data job titles._
 
 - Senior roles such as Senior Data Scientist and Senior Data Engineer consistently have higher median salaries.
@@ -141,12 +147,15 @@ plt.show()
 
 In_demand skills for data analysts in the US:
 
-![The Highest Paid $ Most In-Demand Skills for Data Analysts in the US](images/In-Demand.png)
+![The Highest Paid $ Most In-Demand Skills for Data Analysts in the US](Project/images/In-Demand.png)
 _Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US,_
 
 # The Analysis
 
 ## 5. Wha is the most optimal skill to learn for Data Analysts?
+
+View my notebook with detailed steps here:
+[5_Optimal_Skills.ipynb](Project/5_Optimal_Skills.ipynb)
 
 ### Visualize Data
 
@@ -171,7 +180,7 @@ for i, txt in enumerate(df_DA_skills_hight_demand.index):
 
 #### Results
 
-![Most Optimal Skills for Data Analyst in the US](images/Technology.png)
+![Most Optimal Skills for Data Analyst in the US](Project/images/Technology.png)
 A scatter plot visualizing the most optimal skills (hight paying & high demand) for data analysts in the US,
 
 #### Insights:
